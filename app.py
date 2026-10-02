@@ -56,16 +56,6 @@ st.sidebar.info(
 st.header("📂 Upload Transactions")
 
 uploaded_file = st.file_uploader(
-
-
-if uploaded_file is None:
-    st.info("📁 Please upload a CSV file to begin analysis.")
-    st.stop()
-
-
-if uploaded_file is None:
-    st.info("📁 Please upload a CSV file to begin analysis.")
-    st.stop()
     "Upload your transaction CSV file",
     type=["csv"]
 )
@@ -1414,3 +1404,4 @@ st.info(
     "identify unusual patterns. They are testing examples "
     "and do not represent confirmed fraud."
 )
+
